@@ -1,1 +1,0 @@
-# nakaomiku.github.io
