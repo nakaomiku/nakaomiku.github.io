@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/codemirror.min.css');
+* {
+    color: rgb(31, 28, 28);
+    font-size: 2rem;
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: larger;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    text-align: center;
+}
+.nguyenbel {
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+body {
+    background: url(maxresdefault.jpg) no-repeat center / cover;
+    min-height: 100vh;
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.avt {
+    width: auto;
+    border-radius: 50%;
+    height: 200px;
+    background: url(519-lg.png) no-repeat center / cover;
+}
+
+.box-center {
+    width: 200px;
+    max-height: 200px;
+    margin: auto;
+}
+
+.wellcome *,
+.padding * {
+    transition: .4s;
+}
+
+.wellcome:hover .font {
+    font-size: 0;
+}
+
+.wellcome:hover .facebook {
+    font-size: 4rem;
+}
+
+.wellcome .facebook {
+    font-size: 3rem;
+}
+
+.padding:hover .font2 {
+    transition: .5s;
+    font-size: 0;
+}
+
+.padding:hover .zalo {
+    transition: .2s;
+    font-size: 3rem;
+}
+
+.padding .zalo {
+    transition: .4s;
+    font-size: 3rem;
+}
+
+a {
+    width: 200px;
+    font-size: 3rem;
+    transition: .4s;
+}
+.font , .font2{
+    color: aliceblue;
+}
+
+.wellcome .padding {
+    margin-top: 500px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: clamp(200px, 600px, 100%);
+    margin: 20px auto;
+}
+.note{
+    font-size: 0;
+}
+.full:hover .topic{
+    transition: .2s;
+    font-size: 0;
+}
+.full:hover .note{
+    transition: .2s;
+    font-size: 3rem;
+}
+.full{
+    transition: 2s;
+}
+.full , .container{
+    margin-top: 0%;
+}
